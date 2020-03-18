@@ -52,20 +52,52 @@ a {
     text-align: center;
     padding-right: 10px;
     width: 134px;
-
-
 }
 
-
-.icon {
+.box .icon {
     margin-right: 8px;
 }
 
 .header-top-right {
     width: 50%;
-    background-color: lightblue;
-    height: 100%;
     float: left;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin-top: 23px;
+}
+
+li {
+    display: inline-block;
+}
+
+.fa-search {
+    color: #06a0d4;
+}
+
+.button-empty {
+    background-color: #fff;
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.button-empty a, .fa-search {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.button-full {
+    background-color: #ff7a59;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ff7a59;
+    border-radius: 2px;
+    margin-left: 10px;
 }
 
 .header-bottom {
