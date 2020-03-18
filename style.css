@@ -32,7 +32,7 @@
     height: 748px;
 }
 
-.offer {
+.home-services {
     background-color: #f5f8fa;
     height: 997px;
 }
@@ -41,4 +41,19 @@
     background: rgb(0,181,182);
     background: linear-gradient(37deg, rgba(0,181,182,1) 50%, rgba(0,187,154,1) 91%);
     height: 924px;
+}
+
+.home-customers {
+    background-color: white;
+    height: 288px;
+}
+
+.home-get-hub {
+    background-color: white;
+    height: 694px;
+}
+
+footer {
+    background-color: #33475b;
+    height: 754px;
 }
