@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    color: #33475b;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.611em;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
 .container {
     width:1080px;
     margin: auto;
@@ -19,7 +30,42 @@
 
 .header-top {
     background-color: #f0f0f0;
-    height: 84px;
+    height: 85px;
+}
+
+.header-top-left {
+    width: 50%;
+    float: left;
+}
+
+.box {
+    float: left;
+    margin-top: 30px;
+}
+
+.box:first-child{
+    border-right: 2px solid #cbd6e2;
+    width: 91px;
+}
+
+.box:nth-child(2) {
+    text-align: center;
+    padding-right: 10px;
+    width: 134px;
+
+
+}
+
+
+.icon {
+    margin-right: 8px;
+}
+
+.header-top-right {
+    width: 50%;
+    background-color: lightblue;
+    height: 100%;
+    float: left;
 }
 
 .header-bottom {
