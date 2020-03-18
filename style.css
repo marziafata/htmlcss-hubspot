@@ -21,3 +21,24 @@
     background-color: #f0f0f0;
     height: 84px;
 }
+
+.header-bottom {
+    background-color: white;
+    height: 84px;
+}
+
+.homepage {
+    background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
+    height: 748px;
+}
+
+.offer {
+    background-color: #f5f8fa;
+    height: 997px;
+}
+
+.home-community-board {
+    background: rgb(0,181,182);
+    background: linear-gradient(37deg, rgba(0,181,182,1) 50%, rgba(0,187,154,1) 91%);
+    height: 924px;
+}
