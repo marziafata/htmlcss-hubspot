@@ -49,7 +49,7 @@ a {
     height: 85px;
 }
 
-.header-top-left li {
+.header-top-left li, .header-top-right li, .header-bottom-right li {
     display: inline-block;
 }
 
@@ -66,6 +66,7 @@ a {
     padding-right: 15px;
     border-right: 2px solid #cbd6e2;
 }
+
 
 .header-top-left ul li:last-child {
     padding-left: 15px;
@@ -88,10 +89,6 @@ a {
     list-style-type: none;
     text-align: right;
     margin-top: 23px;
-}
-
-.header-top-right li {
-    display: inline-block;
 }
 
 .fa-search {
@@ -143,11 +140,48 @@ a {
 }
 
 /* fine top-right */
+
 /* fine header-top */
+
+/* inizio Header-bottom */
+
 .header-bottom {
     background-color: white;
     height: 84px;
 }
+
+.header-bottom-left {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.hubspot-logo {
+    margin-top: 27px;
+}
+
+.header-bottom-right {
+    width: 70%;
+    background-color: lightblue;
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+
+.header-bottom-right ul li {
+    list-style-type: none;
+    text-align: right;
+    font-weight: bold;
+}
+
+/*
+prove di icone
+.header-bottom-right ul li::after {
+content: '\f0d7';
+display: inline-block;
+position: relative;
+color: #7c98b6;
+font-family: "Font Awesome 5 Pro"; */
 
 .homepage {
     background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
