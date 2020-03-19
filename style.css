@@ -162,7 +162,6 @@ a {
 
 .header-bottom-right {
     width: 70%;
-    background-color: lightblue;
     height: 100%;
     float: left;
     text-align: right;
@@ -172,19 +171,23 @@ a {
     list-style-type: none;
     text-align: right;
     font-weight: bold;
+    margin-top: 30px;
+    padding-left: 25px;
 }
 
-/*
-prove di icone
 .header-bottom-right ul li::after {
 content: '\f0d7';
 display: inline-block;
 position: relative;
 color: #7c98b6;
-font-family: "Font Awesome 5 Pro"; */
+font-family: "Font Awesome 5 Pro";
+font-weight: bold;
+}
+
+/* fine header bottom */
 
 .homepage {
-    background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
+    background-image: url(Background.png);
     height: 748px;
 }
 
