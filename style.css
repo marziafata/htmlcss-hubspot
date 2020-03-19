@@ -33,7 +33,12 @@ a {
 
 .header-top {
     background-color: #f0f0f0;
-    height: 85px;
+    /* width: 100%;
+    position: fixed; */
+}
+
+.header-top a{
+    padding:10px;
 }
 
 /* top-left */
@@ -41,6 +46,7 @@ a {
 .header-top-left {
     width: 50%;
     float: left;
+    height: 85px;
 }
 
 .header-top-left li {
@@ -65,12 +71,17 @@ a {
     padding-left: 15px;
 }
 
+.header-top-left a:visited {
+    color: #33475b;
+}
+
 /* fine top-left */
 /* top-right */
 
 .header-top-right {
     width: 50%;
     float: right;
+    height: 85px;
 }
 
 .header-top-right ul {
@@ -87,11 +98,15 @@ a {
     color: #06a0d4;
 }
 
+.button-empty a:visited {
+    color: #ff7a59;
+}
+
 .button-empty {
     background-color: #fff;
     border: 1px solid #ff7a59;
     color: #ff7a59;
-    padding: 10px;
+    padding: 7px;
     border-radius: 3px;
     margin-left: 10px;
 }
@@ -108,15 +123,23 @@ a {
 .button-full {
     background-color: #ff7a59;
     color: #fff;
-    padding: 10px;
+    padding: 7px;
     border: 1px solid #ff7a59;
     border-radius: 2px;
     margin-left: 10px;
 }
 
+.button-full a:visited {
+    color: white;
+}
+
 .button-full:hover {
     background-color: #ffc4b5;
     border: 1px solid #ffc4b5;
+}
+
+.button-full, .button-empty {
+    font-size: 13px;
 }
 
 /* fine top-right */
