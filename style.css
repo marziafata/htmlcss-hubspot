@@ -29,11 +29,14 @@ a {
 }
 
 /* header */
+/* top */
 
 .header-top {
     background-color: #f0f0f0;
     height: 85px;
 }
+
+/* top-left */
 
 .header-top-left {
     width: 50%;
@@ -61,6 +64,9 @@ a {
 .header-top-left ul li:last-child {
     padding-left: 15px;
 }
+
+/* fine top-left */
+/* top-right */
 
 .header-top-right {
     width: 50%;
@@ -112,6 +118,9 @@ a {
     background-color: #ffc4b5;
     border: 1px solid #ffc4b5;
 }
+
+/* fine top-right */
+/* fine header-top */
 .header-bottom {
     background-color: white;
     height: 84px;
