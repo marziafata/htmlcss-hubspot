@@ -134,6 +134,7 @@ margin-left: 10px;
     border: 1px solid #ff7a59;
     border-radius: 2px;
     margin-left: 10px;
+    display: inline-block;
 }
 
 .button-full a:visited {
@@ -196,9 +197,49 @@ margin-left: 10px;
 
 /* fine header bottom */
 
-.homepage {
+/* inizio jumbo */
+
+.jumbo{
     background-image: url(Background.png);
+    background-size: cover;
+    background-position: center;
     height: 748px;
+}
+
+.box-jumbo {
+    width: 40%;
+}
+
+.box-jumbo h1 {
+    font-size: 43px;
+    line-height: 56px;
+    margin-top: 83px;
+}
+
+.box-jumbo p{
+    line-height: 29px;
+    padding-top: 38px;
+}
+
+.button-jumbo {
+    margin-top: 25px;
+    background-color: #ff7a59;
+    color: #fff;
+    padding: 26px;
+    border: 1px solid #ff7a59;
+    border-radius: 2px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.box-jumbo p:last-child {
+    margin-right: 232px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.button-jumbo a:visited{
+    color: white;
 }
 
 .home-services {
