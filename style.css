@@ -19,6 +19,9 @@ a {
     width:1080px;
     margin: auto;
     height: 100%;
+}
+
+.home-services .container, .home-community-board .container, .home-customers .container, .home-get-hub .container, footer .container {
     border: 1px solid black;
 }
 
@@ -157,7 +160,7 @@ margin-left: 10px;
 
 .header-bottom {
     background-color: white;
-    height: 170px;
+    height: 85px;
     padding-top: 85px;
 }
 
