@@ -11,8 +11,19 @@ body {
     font-weight: 400;
 }
 
+.button-full a, .button-jumbo a {
+    color: white;
+}
+
+.button-empty a {
+    color: #ff7a59;
+}
 a {
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .container {
@@ -87,7 +98,7 @@ margin-left: 10px;
     padding-left: 15px;
 }
 
-.header-top-left a:visited {
+.header-top-left a:visited, .header-top-left a {
     color: #33475b;
 }
 
@@ -101,7 +112,6 @@ margin-left: 10px;
 }
 
 .header-top-right ul {
-    list-style-type: none;
     text-align: right;
     margin-top: 23px;
 }
@@ -121,6 +131,7 @@ margin-left: 10px;
     padding: 7px;
     border-radius: 3px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .button-empty a, .fa-search {
@@ -138,7 +149,6 @@ margin-left: 10px;
     padding: 7px;
     border: 1px solid #ff7a59;
     border-radius: 2px;
-    margin-left: 10px;
     display: inline-block;
 }
 
@@ -183,7 +193,6 @@ margin-left: 10px;
 }
 
 .header-bottom-right ul li {
-    list-style-type: none;
     text-align: right;
     font-weight: bold;
     margin-top: 30px;
@@ -300,8 +309,27 @@ margin-left: 10px;
     background-color: white;
 }
 
-.box1 .title {
+.box1 .title img, .box1 .title h3 {
     display: inline-block;
+}
+
+.features p {
+    border-top: 1px solid rgba(153,172,194,0.2);
+}
+
+.button-large {
+    width: 100%;
+}
+
+.features-list ul li::before{
+    content: "\f058";
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    color: #ff7a59;
+    font-weight: bold;
+    font-family: "Font Awesome 5 Pro";
+    position: relative;
 }
 
 .row2 .box1:first-child, .row2 .box1:nth-child(2) {
