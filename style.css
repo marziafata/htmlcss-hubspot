@@ -307,14 +307,30 @@ margin-left: 10px;
 .box1 {
     box-shadow: 1px 1px 8px 0px rgba(150, 150, 150, 0.1);
     background-color: white;
+    padding: 25px;
 }
 
 .box1 .title img, .box1 .title h3 {
     display: inline-block;
 }
 
+.box1-content {
+    font-size: 15px;
+}
+
+.title, .box1-content p, .features-list ul{
+    margin-bottom: 20px;
+}
+
+.features-list ul li {
+    line-height: 30px;
+}
+
 .features p {
     border-top: 1px solid rgba(153,172,194,0.2);
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-size: 12px;
 }
 
 .button-large {
