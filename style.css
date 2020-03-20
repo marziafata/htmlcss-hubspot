@@ -39,6 +39,7 @@ a {
     width: 100%;
     position: fixed;
     height: 85px;
+    border-bottom: 1px solid #cbd6e2;
 }
 
 .header-top a{
@@ -297,6 +298,10 @@ margin-left: 10px;
 .box1 {
     box-shadow: 1px 1px 8px 0px rgba(150, 150, 150, 0.1);
     background-color: white;
+}
+
+.box1 .title {
+    display: inline-block;
 }
 
 .row2 .box1:first-child, .row2 .box1:nth-child(2) {
