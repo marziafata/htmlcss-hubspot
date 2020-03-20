@@ -324,6 +324,7 @@ margin-left: 10px;
 
 .features-list ul li {
     line-height: 30px;
+    font-size: 13px;
 }
 
 .features p {
@@ -335,6 +336,9 @@ margin-left: 10px;
 
 .button-large {
     width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .features-list ul li::before{
