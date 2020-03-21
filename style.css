@@ -515,18 +515,24 @@ div.loghi {
     float: left;
 }
 
-div.loghi1 img {
-    width: 110px;
+.logo-box {
     float: left;
-    margin: 16px 25px;
+    width: 25%;
+    padding: 20px;
+    position: relative;
 }
 
-div.loghi2 img {
+div.logo-box img {
     width: 110px;
-    float: left;
-    margin: 56px 25px 0 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
+.logo-row-2 {
+    margin-top: 45px;
+}
 
 .home-get-hub {
     background-color: white;
