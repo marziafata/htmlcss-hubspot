@@ -479,10 +479,54 @@ p.pippo {
     border-right: 1px solid #fff;
 }
 
+/* inizio parte con i loghi */
+
 .home-customers {
     background-color: white;
     height: 288px;
 }
+
+.box-box {
+    padding: 100px 0;
+}
+
+div.customers {
+    float: left;
+    width: 40%;
+}
+
+div.customers h2 {
+    font-size: 50px;
+    margin-bottom: 34px;
+}
+
+div.customers p {
+    font-size: 20px;
+    line-height: 32px;
+    padding-right: 36px;
+}
+
+div.customers p strong {
+    font-size: 24px;
+}
+
+div.loghi {
+    width: 60%;
+    float: left;
+}
+
+div.loghi1 img {
+    width: 110px;
+    float: left;
+    margin: 16px 25px;
+}
+
+div.loghi2 img {
+    width: 110px;
+    float: left;
+    margin: 56px 25px 0 25px;
+}
+
 
 .home-get-hub {
     background-color: white;
