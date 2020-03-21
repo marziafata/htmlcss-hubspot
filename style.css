@@ -32,9 +32,9 @@ ul {
     height: 100%;
 }
 
-/* .home-services .container, .home-community-board .container, .home-customers .container, .home-get-hub .container, footer .container {
+.home-services .container, .home-community-board .container, .home-customers .container, .home-get-hub .container, footer .container {
     border: 1px solid black;
-} */
+}
 
 .clearfix::after {
     clear: both;
@@ -230,6 +230,7 @@ margin-left: 10px;
     font-size: 43px;
     line-height: 56px;
     margin-top: 83px;
+    padding-top: 83px;
 }
 
 .box-jumbo p{
@@ -438,10 +439,21 @@ h2.number {
     margin-top: 20px;
 }
 
-h2.number::after {
+.number.plus::after {
     content: '\f067';
     display: inline-block;
     color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Font Awesome 5 Pro";
+    position: relative;
+    vertical-align: middle;
+}
+
+.number::after {
+    content: '\f067';
+    display: inline-block;
+    color: rgba(255, 255, 255, 0);
     font-size: 10px;
     font-weight: bold;
     font-family: "Font Awesome 5 Pro";
