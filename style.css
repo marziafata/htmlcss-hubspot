@@ -435,11 +435,11 @@ p.board-text {
 }
 
 h2.number {
-    font-size: 50px;
+    font-size: 48px;
     margin-top: 20px;
 }
 
-.number.plus::after {
+.number:not(.noplus)::after {
     content: '\f067';
     display: inline-block;
     color: #fff;
@@ -450,15 +450,8 @@ h2.number {
     vertical-align: middle;
 }
 
-.number::after {
-    content: '\f067';
-    display: inline-block;
-    color: rgba(255, 255, 255, 0);
-    font-size: 10px;
-    font-weight: bold;
-    font-family: "Font Awesome 5 Pro";
-    position: relative;
-    vertical-align: middle;
+p.pippo {
+    padding-top: 4px;
 }
 
 .grid p {
