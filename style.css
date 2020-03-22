@@ -140,7 +140,7 @@ margin-left: 10px;
     margin-right: 15px;
 }
 
-.button-empty:hover {
+.button-empty:not(.button-white):hover {
     background-color: #ffefeb;
 }
 
@@ -600,6 +600,29 @@ footer {
     color: white;
     font-size: 17px;
 }
+
+.dropdown::after {
+content: '\f0d7';
+display: inline-block;
+position: relative;
+color: white;
+font-family: "Font Awesome 5 Pro";
+font-weight: bold;
+margin-left: 10px;
+}
+
+.footer-row1 div:not(:first-child){
+    padding-left: 20px;
+}
+
+.button-white {
+    border: 1px solid white;
+    color: #33475b;
+    text-align: center;
+    padding: 0;
+    margin: 20px 36px 0 0;
+}
+
 
 nav {
     height: 200px;
