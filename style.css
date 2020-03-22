@@ -32,9 +32,9 @@ ul {
     height: 100%;
 }
 
-.home-services .container, .home-community-board .container, .home-customers .container, .home-get-hub .container, footer .container {
+/* .home-services .container, .home-community-board .container, .home-customers .container, .home-get-hub .container, footer .container {
     border: 1px solid black;
-}
+} */
 
 .clearfix::after {
     clear: both;
@@ -200,7 +200,7 @@ margin-left: 10px;
     padding-left: 25px;
 }
 
-.header-bottom-right ul li::after {
+.header-bottom-right ul li:not(:nth-child(2))::after {
 content: '\f0d7';
 display: inline-block;
 position: relative;
@@ -325,15 +325,22 @@ p.large-card::after {
     width: 78%;
 }
 
-.features-list ul li.inline:last-child::before {
+/* .features-list ul li.inline:last-child::before {
     content: none;
+} */
+
+.features-list {
+    width: 61%;
+    float:left;
 }
 
-.button-full.inline {
-    width: 51%;
+.button-full.ciao {
+    width: 39%;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
+    float: left;
+    padding: 14px 0;
 }
 
 .inline {
@@ -343,7 +350,6 @@ p.large-card::after {
 
 .row2 .box1 {
     width: 32%;
-    height: 440px;
     float: left;
 }
 
@@ -388,6 +394,7 @@ p.large-card::after {
     text-align: center;
     font-weight: bold;
     font-size: 15px;
+    padding: 14px 0;
 }
 
 .features-list ul li::before{
@@ -452,6 +459,10 @@ h2.number {
 
 p.pippo {
     padding-top: 4px;
+}
+
+h2.topo {
+    margin-top: 29px;
 }
 
 .grid p {
@@ -689,5 +700,13 @@ nav {
 }
 
 .footer-right ul li:last-child {
-    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.foot-hover:hover {
+    color: #0091ae;
+}
+
+.list1 ul li a:visited:hover, .menu-languages ul li a:visited:hover {
+    color: #0091ae;
 }
