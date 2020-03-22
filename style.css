@@ -483,7 +483,6 @@ p.pippo {
 
 .home-customers {
     background-color: white;
-    height: 288px;
 }
 
 .box-box {
@@ -534,12 +533,90 @@ div.logo-box img {
     margin-top: 45px;
 }
 
+/* fine parte con i loghi */
+
 .home-get-hub {
     background-color: white;
-    height: 694px;
+}
+
+.get-hub-text, .girl {
+    float: left;
+    width: 50%;
+}
+
+.content-box{
+    padding: 135px 0;
+    position: relative;
+}
+
+.get-hub-text h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.get-hub-text p {
+    line-height: 27px;
+}
+
+p.dida {
+    font-size: smaller;
+    margin-top: 30px;
+}
+
+
+.content-box img{
+    width: 350px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 footer {
     background-color: #33475b;
     height: 754px;
+}
+
+.list1 {
+    width: 24%;
+    float: left;
+    color: #cbd6e2;
+    padding: 100px 0;
+    line-height: 42px;
+    font-size: 15px;
+}
+
+.list1 ul li a span {
+    text-transform: uppercase;
+}
+
+.list1 ul li a:visited, .list1 ul li a {
+    color: #cbd6e2;
+}
+
+.list1 ul li:first-child {
+    color: white;
+    font-size: 17px;
+}
+
+nav {
+    height: 200px;
+    background-color: white;
+}
+
+
+.footer-left {
+    width: 50%;
+    height: 200px;
+    background-color: pink;
+    float: left;
+}
+
+.footer-right {
+    width: 50%;
+    height: 200px;
+    background-color: lightblue;
+    float: left;
 }
