@@ -334,7 +334,7 @@ p.large-card::after {
     float:left;
 }
 
-.button-full.ciao {
+.button-full.different {
     width: 39%;
     text-align: center;
     font-weight: bold;
@@ -461,7 +461,7 @@ p.pippo {
     padding-top: 4px;
 }
 
-h2.topo {
+h2.top {
     margin-top: 29px;
 }
 
