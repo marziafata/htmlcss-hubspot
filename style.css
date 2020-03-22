@@ -580,7 +580,7 @@ footer {
 }
 
 .list1 {
-    width: 24%;
+    width: 25%;
     float: left;
     color: #cbd6e2;
     padding: 100px 0;
@@ -596,7 +596,7 @@ footer {
     color: #cbd6e2;
 }
 
-.list1 ul li:first-child {
+.list1 ul li:first-child:not(.fb) {
     color: white;
     font-size: 17px;
 }
@@ -642,4 +642,13 @@ nav {
     height: 200px;
     background-color: lightblue;
     float: left;
+}
+
+.list-icon li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.list-icon li:not(:first-child) {
+    margin-left: 20px;
 }
