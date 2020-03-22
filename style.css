@@ -574,16 +574,17 @@ p.dida {
     transform: translateY(-50%);
 }
 
+/* footer */
+
 footer {
     background-color: #33475b;
-    height: 754px;
 }
 
 .list1 {
     width: 25%;
     float: left;
     color: #cbd6e2;
-    padding: 100px 0;
+    padding: 90px 0 50px 0;
     line-height: 42px;
     font-size: 15px;
 }
@@ -592,7 +593,7 @@ footer {
     text-transform: uppercase;
 }
 
-.list1 ul li a:visited, .list1 ul li a {
+.list1 ul li a:not(.button):visited, .list1 ul li a, .menu-languages ul li a, .menu-languages ul li a:visited, .footer-right a, .footer-right a:visited{
     color: #cbd6e2;
 }
 
@@ -623,32 +624,70 @@ margin-left: 10px;
     margin: 20px 36px 0 0;
 }
 
-
-nav {
-    height: 200px;
-    background-color: white;
-}
-
-
-.footer-left {
-    width: 50%;
-    height: 200px;
-    background-color: pink;
-    float: left;
-}
-
-.footer-right {
-    width: 50%;
-    height: 200px;
-    background-color: lightblue;
-    float: left;
+a.button:visited {
+    color: #33475b;
 }
 
 .list-icon li {
     display: inline-block;
     font-size: 25px;
+    padding-top: 15px;
 }
 
 .list-icon li:not(:first-child) {
-    margin-left: 20px;
+    margin-left: 19px;
+}
+
+
+nav {
+    padding: 50px;
+    position: relative;
+}
+
+.menu-languages ul li {
+    display: inline-block;
+}
+
+.menu-languages ul li:not(:first-child) {
+    margin-left: 25px;
+}
+
+.menu-languages {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 0 50px 0;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.footer-left p {
+    color: #cbd6e2;
+    font-size: smaller;
+}
+
+.footer-left {
+    width: 50%;
+    float: left;
+    height: 150px;
+}
+
+.footer-right {
+    width: 50%;
+    float: left;
+    height: 150px;
+    text-align: right;
+}
+
+.footer-right ul li {
+    display: inline-block;
+}
+
+.footer-right ul li:last-child {
+    margin-right: 20px;
 }
