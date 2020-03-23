@@ -189,7 +189,7 @@ margin-left: 10px;
 .header-bottom-right {
     width: 70%;
     height: 100%;
-    float: left;
+    float: right;
     text-align: right;
 }
 
@@ -198,6 +198,10 @@ margin-left: 10px;
     font-weight: bold;
     margin-top: 30px;
     padding-left: 25px;
+}
+
+.header-bottom-right ul li a {
+    color: #33475b;
 }
 
 .header-bottom-right ul li:not(:nth-child(2))::after {
@@ -298,10 +302,12 @@ margin-left: 10px;
     height: 320px;
     float: left;
     margin-bottom: 21px;
+    border-radius: 3px;
 }
 
 .box1:hover {
     transform: scale(1.02);
+    box-shadow: 3px 3px 10px 0px rgba(150, 150, 150, 0.1);
 }
 
 
@@ -351,6 +357,7 @@ p.large-card::after {
 .row2 .box1 {
     width: 32%;
     float: left;
+    border-radius: 3px;
 }
 
 .large-card {
@@ -363,6 +370,7 @@ p.large-card::after {
     box-shadow: 1px 1px 8px 0px rgba(150, 150, 150, 0.1);
     background-color: white;
     padding: 25px;
+
 }
 
 .box1 .title img, .box1 .title h3 {
@@ -685,13 +693,11 @@ nav {
 .footer-left {
     width: 50%;
     float: left;
-    height: 150px;
 }
 
 .footer-right {
     width: 50%;
     float: left;
-    height: 150px;
     text-align: right;
 }
 
